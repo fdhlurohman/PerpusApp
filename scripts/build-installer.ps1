@@ -4,7 +4,7 @@ $projectRoot = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
 $inputDirectory = Join-Path $projectRoot "target\jpackage-input"
 $outputDirectory = Join-Path $projectRoot "dist"
 $installerPath = Join-Path $outputDirectory "Perpustakaan-1.0.exe"
-$iconPath = Join-Path $projectRoot "perpus-icon.ico"
+$iconPath = Join-Path $projectRoot "perpus-icon1.ico"
 
 foreach ($toolName in @("mvn", "jpackage", "candle.exe", "light.exe")) {
     if (-not (Get-Command $toolName -ErrorAction SilentlyContinue)) {

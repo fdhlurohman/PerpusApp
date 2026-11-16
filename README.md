@@ -72,7 +72,7 @@ di sisi server. Aplikasi memakai publishable/anon key yang memang bersifat publi
 │   └── build-installer.ps1         # Build installer Windows
 ├── schema.sql                      # Skema awal database
 ├── pom.xml                         # Konfigurasi Maven
-└── perpus-icon.ico                 # Ikon installer Windows
+└── perpus-icon1.ico                # Ikon installer Windows
 ```
 
 ## Persiapan Supabase
@@ -184,7 +184,7 @@ memasang Java atau Maven. Diperlukan komputer pengembang Windows dengan:
 - JDK 17 yang menyertakan `jpackage`
 - Maven
 - WiX Toolset 3.x, dengan `candle.exe` dan `light.exe` tersedia di `PATH`
-- Ikon [`perpus-icon.ico`](./perpus-icon.ico)
+- Ikon [`perpus-icon1.ico`](./perpus-icon1.ico)
 
 Pastikan backend dan konfigurasi publik pada `app.properties` sudah benar, kemudian jalankan
 PowerShell dari folder proyek:
