@@ -1,0 +1,9 @@
+.env
+supabase/functions/.env
+supabase/.temp/
+target/
+dist/
+*.class
+*.local
+*.secret
+.vscode/
